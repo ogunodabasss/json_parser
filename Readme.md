@@ -14,7 +14,9 @@ cargo 1.81.0 (2dbb1af80 2024-08-20)
 # download
 
 cargo clean
+
 cargo build
+
 cargo test
 
 # run Note
