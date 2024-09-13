@@ -1,0 +1,17 @@
+[package]
+name = "json_parser_app"
+version = "0.1.0"
+edition = "2021"
+
+
+#[[bin]]
+#name = "json_parser_app"
+#path = "../json_parser_app/src/main.rs"
+#required-features = ["cargo"]
+#doc-scrape-examples = true
+
+[dependencies]
+clap = { version = "4.5.17", features = ["derive"] }
+json_parser_lib = { path = "./../../json_parser/json_parser_lib" }
+
+log = "0.4.22"

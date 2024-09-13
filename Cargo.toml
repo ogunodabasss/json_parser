@@ -1,12 +1,13 @@
 [workspace]
 resolver = "2"
-members = [
 
+members = [ 
+    "json_parser_app",
+    "json_parser_lib"
 ]
 
-[package]
-name = "json_parser"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
+#[[bin]]
+#name = "json_parser_app"
+#path = "./json_parser_app/src/main.rs"
+#required-features = ["cargo"]
+#doc-scrape-examples = true
